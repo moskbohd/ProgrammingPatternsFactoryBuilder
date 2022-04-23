@@ -2,12 +2,16 @@ package com.MoskBohd;
 
 import java.util.Objects;
 
-public class IsoscelesTrapezoid {
+public class IsoscelesTrapezoid implements IFigure{
     double lengthUp = 0;
     double lengthDown = 0;
     double height = 0;
 
     // Constructor
+
+    public IsoscelesTrapezoid() {
+    }
+
     public IsoscelesTrapezoid(double lengthUp, double lengthDown, double height) {
         this.lengthUp = lengthUp;
         this.lengthDown = lengthDown;
