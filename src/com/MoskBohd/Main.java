@@ -1,5 +1,6 @@
 package com.MoskBohd;
 
+import com.MoskBohd.Builder.MyInteger;
 import com.MoskBohd.Builder.Student;
 import com.MoskBohd.Factory.*;
 
@@ -18,5 +19,9 @@ public class Main {
                 .withPatronymic("Andriyovich")
                 .build();
         System.out.println(student);
+
+        // my integer
+        MyInteger myInteger = new MyInteger();
+        System.out.println(myInteger.isPrime(5));
     }
 }
