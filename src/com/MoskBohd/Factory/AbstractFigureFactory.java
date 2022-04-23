@@ -1,4 +1,4 @@
-package com.MoskBohd;
+package com.MoskBohd.Factory;
 
 public class AbstractFigureFactory {
     public static IFigure create(double a, double b, double c, Figure figure){

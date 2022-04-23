@@ -1,4 +1,4 @@
-package com.MoskBohd;
+package com.MoskBohd.Factory;
 
 public class TriangleFactory {
 

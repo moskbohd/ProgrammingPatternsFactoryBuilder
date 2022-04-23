@@ -1,6 +1,8 @@
-package com.MoskBohd;
+package com.MoskBohd.Factory;
 
-public class Triangle implements IFigure{
+import com.MoskBohd.Factory.IFigure;
+
+public class Triangle implements IFigure {
     private double a;
     private double b;
     private double c;

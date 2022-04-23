@@ -1,5 +1,8 @@
 package com.MoskBohd;
 
+import com.MoskBohd.Builder.Student;
+import com.MoskBohd.Factory.*;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,5 +11,12 @@ public class Main {
         System.out.println(isoscelesTrapezoid);
         Triangle triangle = (Triangle) AbstractFigureFactory.create(2, 4, 6, Figure.TRIANGLE);
         System.out.println(triangle);
+
+        Student student = new Student.Builder()
+                .withFirstName("Bohdan")
+                .withLastName("Moskalskyi")
+                .withPatronymic("Andriyovich")
+                .build();
+        System.out.println(student);
     }
 }
